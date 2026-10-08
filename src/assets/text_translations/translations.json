@@ -1,0 +1,754 @@
+{
+    "test": {
+        "en": "Test",
+        "bg": "Тест"
+    },
+    "login_v1": {
+        "en": "Login",
+        "bg": "Влез"
+    },
+    "login_v2": {
+        "en": "Log In",
+        "bg": "Влез"
+    },
+    "home": {
+        "en": "Home",
+        "bg": "Вкъщи"
+    },
+    "about": {
+        "en": "About",
+        "bg": "За Нас"
+    },
+    "store": {
+        "en": "Store",
+        "bg": "Магазин"
+    },
+    "manage_users": {
+        "en": "Manage Users",
+        "bg": "потребители"
+    },
+    "account": {
+        "en": "Account",
+        "bg": "Акаунт"
+    },
+    "account_details": {
+        "en": "Account Details",
+        "bg": "Данни за акаунта"
+    },
+    "close": {
+        "en": "Close",
+        "bg": "Затвори"
+    },
+    "previous_orders": {
+        "en": "Previous Orders",
+        "bg": "Предишни поръчки"
+    },
+    "noOrdersPt1": {
+        "en": "It seems like you have no orders yet, click",
+        "bg": "Изглежда, че все още нямате поръчки, щракнете"
+    },
+    "noOrdersPt2": {
+        "en": "to go to the store!",
+        "bg": "за да отидете в магазина!"
+    },
+    "create_account": {
+        "en": "Create Account",
+        "bg": "Създай акаунт"
+    },
+    "signup_page_hint_1_already_have_acc": {
+        "en": "Already have an account with us?",
+        "bg": "Вече имате акаунт с нас?"
+    },
+    "signup_page_hint_2_to_log_in": {
+        "en": "to log in.",
+        "bg": "за да влезете."
+    },
+    "signupText1": {
+        "en": "Don't have an account with us yet?",
+        "bg": "Още нямате акаунт с нас?"
+    },
+    "signupText2": {
+        "en": "Sign up",
+        "bg": "Регистрирайте се"
+    },
+    "anonymous_user_creation_failed": {
+        "en": "Failed to create anonymous user session.",
+        "bg": "Неуспешно създаване на анонимна потребителска сесия."
+    },
+    "skip_for_now": {
+        "en": "Skip for now",
+        "bg": "Пропусни засега"
+    },
+    "create_account_prompt": {
+        "en": "Would you like to create an account to track your orders?",
+        "bg": "Искате ли да създадете акаунт, за да следите поръчките си?"
+    },
+    "country": {
+        "en": "Country",
+        "bg": "Държава"
+    },
+    "country_code": {
+        "en": "Code",
+        "bg": "Код"
+    },
+    "phone_number": {
+        "en": "Phone Number",
+        "bg": "Телефонен номер"
+    },
+    "invalid_phone_number_format": {
+        "en": "Please enter a valid phone number.",
+        "bg": "Моля, въведете валиден телефонен номер."
+    },
+    "here": {
+        "en": "here",
+        "bg": "тук"
+    },
+    "required_field": {
+        "en": "Required field.",
+        "bg": "Задължително поле."
+    },
+    "first_name": {
+        "en": "First Name",
+        "bg": "Име"
+    },
+    "surname": {
+        "en": "Surname",
+        "bg": "Фамилия"
+    },
+    "email": {
+        "en": "Email",
+        "bg": "Имейл"
+    },
+    "invalid_email_format": {
+        "en": "Please enter a valid email.",
+        "bg": "Моля, въведете валиден имейл."
+    },
+    "password": {
+        "en": "Password",
+        "bg": "Парола"
+    },
+    "confirm_password": {
+        "en": "Confirm Password",
+        "bg": "Потвърдете паролата"
+    },
+    "invalid_password_format": {
+        "en": "Password must be at least 8 characters and contain a combination of numbers and upper and lower case letters.",
+        "bg": "Паролата трябва да бъде поне 8 символа и да съдържа числа, малки и главни букви."
+    },
+    "passwords_do_not_match": {
+        "en": "Passwords do not match.",
+        "bg": "Паролите трябва да са еднакви."
+    },
+    "sign_out": {
+        "en": "Sign out",
+        "bg": "Изход"
+    },
+    "change_password": {
+        "en": "Change Password",
+        "bg": "Промяна на парола"
+    },
+    "current_password": {
+        "en": "Current Password",
+        "bg": "Текуща парола"
+    },
+    "new_password": {
+        "en": "New Password",
+        "bg": "Нова парола"
+    },
+    "password_changed_success": {
+        "en": "Password updated successfully.",
+        "bg": "Паролата е сменена успешно."
+    },
+    "incorrect_current_password": {
+        "en": "Incorrect password. Please try again.",
+        "bg": "Грешна парола. Моля, опитайте отново."
+    },
+    "invalid_login_credentials": {
+        "en": "Incorrect email or password. Please try again.",
+        "bg": "Грешен имейл или парола. Моля, опитайте отново."
+    },
+    "forgot_password": {
+        "en": "Forgot password?",
+        "bg": "Забравена парола?"
+    },
+    "reset_password": {
+        "en": "Reset Password",
+        "bg": "Нулиране на парола"
+    },
+    "send_reset_link": {
+        "en": "Send Reset Link",
+        "bg": "Изпрати линк"
+    },
+    "password_reset_email_sent": {
+        "en": "If an account exists for this email, a password reset link has been sent. Please check your inbox.",
+        "bg": "Ако съществува акаунт с този имейл, ще получите линк за нулиране на паролата. Моля, проверете пощата си."
+    },
+    "back_to_login": {
+        "en": "Back to login",
+        "bg": "Обратно към вход"
+    },
+    "something_went_wrong_try_again": {
+        "en": "Something went wrong. Please try again later or contact support.",
+        "bg": "Нещо се обърка. Моля, опитайте отново по-късно или се свържете с поддръжката."
+    },
+    "invalid_phone_number_country_code_format": {
+        "en": "Country code must be in format +359.",
+        "bg": "Кодът на държавата трябва да е във формат +359."
+    },
+    "invalid_name": {
+        "en": "Please enter a valid name.",
+        "bg": "Моля, въведете валидно име."
+    },
+    "correct_form_errors": {
+        "en": "Please correct form errors to proceed.",
+        "bg": "Моля, коригирайте грешките във формуляра, за да продължите."
+    },
+    "continue": {
+        "en": "Continue",
+        "bg": "Продължи"
+    },
+    "contact_us": {
+        "en": "Contact Us:",
+        "bg": "Свържете се с нас:"
+    },
+    "follow_us": {
+        "en": "Follow Us:",
+        "bg": "Последвайте ни:"
+    },
+    "language": {
+        "en": "Language:",
+        "bg": "Език:"
+    },
+    "select_size": {
+        "en": "SELECT SIZE:",
+        "bg": "ИЗБЕРИ РАЗМЕР:"
+    },
+    "add_to_basket": {
+        "en": "Add to Basket",
+        "bg": "Добави в количката"
+    },
+    "snackbar_added_to_basket_message": {
+        "en": "Item added to Basket.",
+        "bg": "Артикулът е добавен в количката."
+    },
+    "size_chart_link": {
+        "en": "Size chart",
+        "bg": "Таблица с размери"
+    },
+    "basket": {
+        "en": "Basket",
+        "bg": "Количка"
+    },
+    "item": {
+        "en": "Item",
+        "bg": "Артикул"
+    },
+    "size": {
+        "en": "Size",
+        "bg": "Размер"
+    },
+    "quantity": {
+        "en": "Quantity",
+        "bg": "Количество"
+    },
+    "price": {
+        "en": "Price",
+        "bg": "Цена"
+    },
+    "basket_is_empty_pt1": {
+        "en": "Basket is empty! Click",
+        "bg": "Количката е празна! Натиснете"
+    },
+    "basket_is_empty_pt2": {
+        "en": "to go to the store and add items.",
+        "bg": "за да отидете в магазина и да добавите артикули."
+    },
+    "subtotal": {
+        "en": "Subtotal",
+        "bg": "Междинна сума"
+    },
+    "checkout": {
+        "en": "Checkout",
+        "bg": "Завършване на поръчката"
+    },
+    "checkout_button": {
+        "en": "Checkout",
+        "bg": "Завършване"
+    },
+    "search_speedy_office": {
+        "en": "Search Speedy Pickup Office",
+        "bg": "Търсене на офис на Спиди за доставка"
+    },
+    "select_speedy_office": {
+        "en": "Select Speedy Pickup Office",
+        "bg": "Изберете офис на Спиди за доставка"
+    },
+    "required_field_3_chars_min": {
+        "en": "Required field. Minimum 3 characters.",
+        "bg": "Задължително поле. Минимум 3 символа."
+    },
+    "no_offices_found": {
+        "en": "No offices found.",
+        "bg": "Няма намерени офиси."
+    },
+    "loading": {
+        "en": "Loading...",
+        "bg": "Зареждане..."
+    },
+    "back_to_store_link": {
+        "en": "Back to Store",
+        "bg": "Обратно в магазина"
+    },
+    "checkout_session_empty": {
+        "en": "Oops! It seems like your checkout session is empty. Please go back to the store and add items to your basket.",
+        "bg": "Сесията за плащане е празна. Моля, върнете се в магазина и добавете артикули в количката."
+    },
+    "shipping": {
+        "en": "Shipping",
+        "bg": "Доставка"
+    },
+    "total": {
+        "en": "Total",
+        "bg": "Общо"
+    },
+    "total_after_discount": {
+        "en": "Total after discounts",
+        "bg": "Сума след отстъпки"
+    },
+    "free_shipping": {
+        "en": "Free",
+        "bg": "0.00 EUR"
+    },
+    "free_shipping_threshold_notice": {
+        "en": "Free shipping on orders over €{amount}",
+        "bg": "Безплатна доставка при поръчки над €{amount}"
+    },
+    "free_shipping_applied": {
+        "en": "Free shipping above €{amount} applied",
+        "bg": "Безплатна доставка над €{amount} активирана"
+    },
+    "first_order_discount_label": {
+        "en": "First order discount (-{percent}%)",
+        "bg": "Отстъпка за първа поръчка (-{percent}%)"
+    },
+    "first_order_discount_promo": {
+        "en": "Get {percent}% off your first order (shown in basket) — limited time only, visit the store and order now to claim it!",
+        "bg": "Вземете {percent}% отстъпка за първата си поръчка (показва се в количката) — само за ограничено време, посетете магазина и поръчайте сега, за да я получите!"
+    },
+    "delivery_details": {
+        "en": "Delivery Details",
+        "bg": "Доставка"
+    },
+    "order_summary": {
+        "en": "Order Summary",
+        "bg": "Поръчка"
+    },
+    "full_name": {
+        "en": "Full Name",
+        "bg": "Име и фамилия"
+    },
+    "address_line_1": {
+        "en": "Address Line 1",
+        "bg": "Адрес ред 1"
+    },
+    "address_line_2": {
+        "en": "Address Line 2 (Optional)",
+        "bg": "Адрес ред 2 (по избор)"
+    },
+    "city": {
+        "en": "City",
+        "bg": "Град"
+    },
+    "zip": {
+        "en": "Zip Code",
+        "bg": "Пощенски код"
+    },
+    "international_orders_hint": {
+        "en": "International orders via website coming soon, contact us for more information.",
+        "bg": "Международни поръчки чрез уебсайта скоро; свържете се с нас за повече информация."
+    },
+    "page_not_found_title": {
+        "en": "Page not found",
+        "bg": "Страницата не е намерена"
+    },
+    "product_not_found_text": {
+        "en": "Product you searched for doesn't exist. Please visit the store to view our whole collection.",
+        "bg": "Търсеният продукт не съществува. Моля, посетете магазина, за да видите цялата ни колекция."
+    },
+    "you_seem_lost_404_text": {
+        "en": "You seem a little lost, please find your way back Home by clicking",
+        "bg": "Изглежда малко объркан, моля върнете се към началната страница, като кликнете"
+    },
+    "deliver_to": {
+        "en": "Deliver to",
+        "bg": "Доставка до"
+    },
+    "deliver_to_single_option_hint": {
+        "en": "Please select a Speedy office below — delivery to an address is coming soon",
+        "bg": "Моля, изберете Speedy офис долу — доставка до адрес очаквайте скоро"
+    },
+    "address": {
+        "en": "Address",
+        "bg": "Адрес"
+    },
+    "speedy_office": {
+        "en": "Speedy Office",
+        "bg": "Офис на Спиди"
+    },
+    "select_office": {
+        "en": "Select Office",
+        "bg": "Избери офис"
+    },
+    "search": {
+        "en": "Search",
+        "bg": "Търсене"
+    },
+    "no_results": {
+        "en": "No results found",
+        "bg": "Няма намерени резултати"
+    },
+    "no_address_available": {
+        "en": "No address available",
+        "bg": "Няма наличен адрес"
+    },
+    "opening_hours": {
+        "en": "Opening hours",
+        "bg": "Работно време"
+    },
+    "no_opening_hours_available": {
+        "en": "No opening hours",
+        "bg": "Работно време"
+    },
+    "change_location": {
+        "en": "Change location",
+        "bg": "Промени офис"
+    },
+    "selected_office": {
+        "en": "Selected Office for Delivery",
+        "bg": "Избран офис за доставка"
+    },
+    "invalid_form_values": {
+        "en": "Please complete all form fields before submitting.",
+        "bg": "Моля, попълнете всички полета във формуляра преди да изпратите."
+    },
+    "submit_order": {
+        "en": "Submit Order",
+        "bg": "Заяви Поръчката"
+    },
+    "thank_you": {
+        "en": "Thank you!",
+        "bg": "Благодарим ви!"
+    },
+    "thanks_for_order": {
+        "en": "You have successfully ordered НЕВЪЗМОЖЕН",
+        "bg": "Успешно поръчахте НЕВЪЗМОЖЕН"
+    },
+    "order_confirmation_message": {
+        "en": "You will receive an email confirmation shortly. Your reference number is",
+        "bg": "Скоро ще получите имейл с потвърждение. Вашият номер за поръчката е"
+    },
+    "order": {
+        "en": "Order",
+        "bg": "Пратка"
+    },
+    "updated_to": {
+        "en": "updated to",
+        "bg": "е променена на"
+    },
+    "Shipped": {
+        "en": "Shipped",
+        "bg": "Изпратена"
+    },
+    "Pending": {
+        "en": "Pending",
+        "bg": "Приготвя се"
+    },
+    "Delivered": {
+        "en": "Delivered",
+        "bg": "Доставена"
+    },
+    "Returned": {
+        "en": "Returned",
+        "bg": "Върната"
+    },
+    "snackbar_failed_update_order_status": {
+        "en": "Failed to update order status.",
+        "bg": "Неуспешна промяна на статуса на поръчката."
+    },
+    "keep_for_records": {
+        "en": "Please keep it for your records.",
+        "bg": "Моля, запазете го за справка."
+    },
+    "questions_contact_us": {
+        "en": "If you have any questions, contact us at",
+        "bg": "Ако имате въпроси, свържете се с нас на"
+    },
+    "back_to_home": {
+        "en": "Back to НЕВЪЗМОЖЕН",
+        "bg": "Обратно към НЕВЪЗМОЖЕН"
+    },
+    "filters": {
+        "en": "Filters",
+        "bg": "Филтри"
+    },
+    "category": {
+        "en": "Category",
+        "bg": "Категория"
+    },
+    "gender": {
+        "en": "Gender",
+        "bg": "Пол"
+    },
+    "material": {
+        "en": "Material",
+        "bg": "Материал"
+    },
+    "season": {
+        "en": "Season",
+        "bg": "Сезон"
+    },
+    "tags": {
+        "en": "Tags",
+        "bg": "Етикети"
+    },
+    "featuredOnly": {
+        "en": "Featured only",
+        "bg": "Само препоръчани"
+    },
+    "featured": {
+        "en": "Featured",
+        "bg": "Препоръчан"
+    },
+    "loading_products": {
+        "en": "Loading products...",
+        "bg": "Зареждане на продукти..."
+    },
+    "noProducts": {
+        "en": "No products found.",
+        "bg": "Няма намерени продукти."
+    },
+    "addToCart": {
+        "en": "Add to cart",
+        "bg": "Добави в количката"
+    },
+    "addedToCart": {
+        "en": "Added to cart",
+        "bg": "Продуктът е добавен в количката"
+    },
+    "size_chart": {
+        "en": "Size Chart",
+        "bg": "Таблица с размери"
+    },
+    "why_we_exist_pt1": {
+        "en": "Why we",
+        "bg": "За какво"
+    },
+    "why_we_exist_pt2": {
+        "en": "exist?",
+        "bg": "се борим"
+    },
+    "about_message_pt1": {
+        "en": "НЕВЪЗМОЖЕН is a mindset.",
+        "bg": "НЕВЪЗМОЖЕН is a mindset."
+    },
+    "about_message_pt2": {
+        "en": "We want to inspire the young, the growing, and everyone who is forging their own path, to believe more in themselves and in the good.",
+        "bg": "Искаме да вдъхновяваме малките, подрастващите и всеки човек, който сам гради пътя си, да вярват повече в себе си и в доброто."
+    },
+    "about_message_pt3": {
+        "en": "To show that it's worth fighting, growing, and pushing forward every single day - even when it's hard. Because every sacrifice, every struggle, and every breath is worth it when you finally reach that inner peace and the feeling that you never gave up on yourself.",
+        "bg": "Да покажем, че има смисъл да се бориш, да се развиваш и да продължаваш напред всеки ден, дори когато е трудно. Защото всяка жертва, всяка трудност и всяка глътка въздух си заслужават, когато един ден стигнеш до вътрешния мир и усещането, че не си се отказал от себе си."
+    },
+    "about_message_pt4": {
+        "en": "We also want to give back to the community around us through campaigns, initiatives, and acts of kindness - because we believe that change starts with ourselves.",
+        "bg": "Също така искаме да помагаме на обществото около нас чрез кампании, инициативи и добри дела, защото вярваме, че промяната започва първо от самите нас."
+    },
+    "team_section_title": {
+        "en": "Who We Are",
+        "bg": "Кои сме ние?"
+    },
+    "team_section_body_pt1": {
+        "en": "Two young guys from Vratsa, Bulgaria, who built НЕВЪЗМОЖЕН - a brand with meaning, character, and a bold vision for the future.",
+        "bg": "Две млади момчета от Враца, България, създали НЕВЪЗМОЖЕН - бранд със смисъл, характер и голяма визия за бъдещето."
+    },
+    "team_section_body_pt2": {
+        "en": "Through it, we want to express the hard road we've walked ourselves, and create designs inspired by hustle and street culture - for the people who don't quit and keep moving forward no matter what.",
+        "bg": "Чрез него искаме да изразим трудния път, по който самите ние сме поели, и да създаваме дизайни, вдъхновени от hustle и street културата - за хората, които не се отказват и продължават напред въпреки всичко."
+    },
+    "team_section_body_pt3": {
+        "en": "To us, 'IMPOSSIBLE' is just a limit in your mind - waiting to be broken.",
+        "bg": "За нас „НЕВЪЗМОЖЕН” е просто граница в главата, която чака да бъде счупена."
+    },
+    "cta_heading": {
+        "en": "Every piece carries the message.",
+        "bg": "Всяка дреха носи посланието."
+    },
+    "shop_the_collection": {
+        "en": "Shop the Collection",
+        "bg": "Разгледай колекцията"
+    },
+    "order_ref": {
+        "en": "Order #",
+        "bg": "Поръчка #"
+    },
+    "date": {
+        "en": "Date",
+        "bg": "Дата"
+    },
+    "items": {
+        "en": "Items",
+        "bg": "Артикула"
+    },
+    "status": {
+        "en": "Status",
+        "bg": "Статус"
+    },
+    "products": {
+        "en": "Products",
+        "bg": "Продукти"
+    },
+    "product": {
+        "en": "Product",
+        "bg": "Продукт"
+    },
+    "home_delivery": {
+        "en": "Home Delivery",
+        "bg": "Домашна доставка"
+    },
+    "orders_support_message": {
+        "en": "If you have any issues with your orders or to request a return, please email us at",
+        "bg": "Ако имате проблеми с поръчките си или искате да върнете артикул, моля пишете ни на"
+    },
+    "out_of_stock": {
+        "en": "Out of Stock",
+        "bg": "Изчерпано"
+    },
+    "left": {
+        "en": "left",
+        "bg": "остават"
+    },
+    "left_singular": {
+        "en": "left",
+        "bg": "остава"
+    },
+    "stock_at_limit": {
+        "en": "Maximum available quantity already in basket.",
+        "bg": "Максималното налично количество вече е в количката."
+    },
+    "basket_updated_title": {
+        "en": "Basket Updated",
+        "bg": "Количката е обновена"
+    },
+    "basket_items_removed": {
+        "en": "The following items were removed as they are now out of stock:",
+        "bg": "Следните артикули бяха премахнати, тъй като са изчерпани:"
+    },
+    "basket_items_reduced": {
+        "en": "The following items were updated to match available stock:",
+        "bg": "Следните артикули бяха обновени спрямо наличния брой:"
+    },
+    "review_basket": {
+        "en": "Review Basket",
+        "bg": "Прегледай количката"
+    },
+    "basket_stock_adjusted_notice": {
+        "en": "Some items were adjusted to match available stock:",
+        "bg": "Някои артикули бяха коригирани спрямо наличния брой:"
+    },
+    "quantity_short": {
+        "en": "QTY",
+        "bg": "БР"
+    },
+    "continue_to_checkout": {
+        "en": "Continue to Checkout",
+        "bg": "Продължи към плащане"
+    },
+    "stock_management": {
+        "en": "Stock Management",
+        "bg": "Управление на наличности"
+    },
+    "save": {
+        "en": "Save",
+        "bg": "Запази"
+    },
+    "saving": {
+        "en": "Saving...",
+        "bg": "Запазване..."
+    },
+    "saved": {
+        "en": "Saved",
+        "bg": "Запазено"
+    },
+    "admin_page_title": {
+        "en": "Admin",
+        "bg": "Администрация"
+    },
+    "admin_orders_nav": {
+        "en": "Admin Orders",
+        "bg": "Поръчки (Админ)"
+    },
+    "stock_nav": {
+        "en": "Stock",
+        "bg": "Наличности"
+    },
+    "admin_orders_title": {
+        "en": "Admin — Orders",
+        "bg": "Администрация — Поръчки"
+    },
+    "no_orders_yet_admin": {
+        "en": "No orders yet.",
+        "bg": "Все още няма поръчки."
+    },
+    "customer": {
+        "en": "Customer",
+        "bg": "Клиент"
+    },
+    "delivery_home_label": {
+        "en": "Delivery — Home Delivery",
+        "bg": "Доставка — Домашна доставка"
+    },
+    "delivery_speedy_label": {
+        "en": "Delivery — Speedy Office",
+        "bg": "Доставка — Офис на Спиди"
+    },
+    "update_status_label": {
+        "en": "Update Status",
+        "bg": "Промяна на статус"
+    },
+    "recent_site_visits": {
+        "en": "Recent Site Visits",
+        "bg": "Последни посещения на сайта"
+    },
+    "no_visits_yet": {
+        "en": "No visits recorded yet.",
+        "bg": "Все още няма записани посещения."
+    },
+    "visit_id_label": {
+        "en": "ID",
+        "bg": "ID"
+    },
+    "date_time_label": {
+        "en": "Date / Time",
+        "bg": "Дата / Час"
+    },
+    "location_label": {
+        "en": "Location",
+        "bg": "Локация"
+    },
+    "auth_label": {
+        "en": "Auth",
+        "bg": "Автентикация"
+    },
+    "device_label": {
+        "en": "Device",
+        "bg": "Устройство"
+    },
+    "browser_label": {
+        "en": "Browser",
+        "bg": "Браузър"
+    },
+    "viewport_label": {
+        "en": "Viewport",
+        "bg": "Изглед"
+    }
+}

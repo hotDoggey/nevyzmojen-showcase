@@ -1,0 +1,142 @@
+{
+    "country_bg": {
+        "en": "Bulgaria",
+        "bg": "България"
+    },
+    "country_ro": {
+        "en": "Romania",
+        "bg": "Румъния"
+    },
+    "country_gr": {
+        "en": "Greece",
+        "bg": "Гърция"
+    },
+    "country_tr": {
+        "en": "Turkey",
+        "bg": "Турция"
+    },
+    "country_rs": {
+        "en": "Serbia",
+        "bg": "Сърбия"
+    },
+    "country_mk": {
+        "en": "North Macedonia",
+        "bg": "Северна Македония"
+    },
+    "country_gb": {
+        "en": "United Kingdom",
+        "bg": "Обединено кралство"
+    },
+    "country_de": {
+        "en": "Germany",
+        "bg": "Германия"
+    },
+    "country_it": {
+        "en": "Italy",
+        "bg": "Италия"
+    },
+    "country_fr": {
+        "en": "France",
+        "bg": "Франция"
+    },
+    "country_es": {
+        "en": "Spain",
+        "bg": "Испания"
+    },
+    "country_at": {
+        "en": "Austria",
+        "bg": "Австрия"
+    },
+    "country_be": {
+        "en": "Belgium",
+        "bg": "Белгия"
+    },
+    "country_nl": {
+        "en": "Netherlands",
+        "bg": "Нидерландия"
+    },
+    "country_ch": {
+        "en": "Switzerland",
+        "bg": "Швейцария"
+    },
+    "country_pl": {
+        "en": "Poland",
+        "bg": "Полша"
+    },
+    "country_cz": {
+        "en": "Czechia",
+        "bg": "Чехия"
+    },
+    "country_hu": {
+        "en": "Hungary",
+        "bg": "Унгария"
+    },
+    "country_sk": {
+        "en": "Slovakia",
+        "bg": "Словакия"
+    },
+    "country_si": {
+        "en": "Slovenia",
+        "bg": "Словения"
+    },
+    "country_hr": {
+        "en": "Croatia",
+        "bg": "Хърватия"
+    },
+    "country_pt": {
+        "en": "Portugal",
+        "bg": "Португалия"
+    },
+    "country_dk": {
+        "en": "Denmark",
+        "bg": "Дания"
+    },
+    "country_fi": {
+        "en": "Finland",
+        "bg": "Финландия"
+    },
+    "country_se": {
+        "en": "Sweden",
+        "bg": "Швеция"
+    },
+    "country_no": {
+        "en": "Norway",
+        "bg": "Норвегия"
+    },
+    "country_ie": {
+        "en": "Ireland",
+        "bg": "Ирландия"
+    },
+    "country_cy": {
+        "en": "Cyprus",
+        "bg": "Кипър"
+    },
+    "country_mt": {
+        "en": "Malta",
+        "bg": "Малта"
+    },
+    "country_lu": {
+        "en": "Luxembourg",
+        "bg": "Люксембург"
+    },
+    "country_us": {
+        "en": "United States",
+        "bg": "САЩ"
+    },
+    "country_ca": {
+        "en": "Canada",
+        "bg": "Канада"
+    },
+    "country_au": {
+        "en": "Australia",
+        "bg": "Австралия"
+    },
+    "country_ru": {
+        "en": "Russia",
+        "bg": "Русия"
+    },
+    "country_ua": {
+        "en": "Ukraine",
+        "bg": "Украйна"
+    }
+}

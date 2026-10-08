@@ -1,0 +1,108 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    /* ---------- Helpers ---------- */
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.user_role == "admin";
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    /* ---------- Products (public read, admin write) ---------- */
+    match /products/{productId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin()
+        && request.resource.data.keys().hasAll([
+          "transparent_thumbnail", "stock", "brand", "category", "price_eur"
+        ]);
+    }
+
+    /* ---------- Categories & tags (public read, admin write) ---------- */
+    match /categories/{catId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /tags/{tagId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    /* ---------- System variables (public read, admin write) ---------- */
+    match /system_variables/{varId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    /* ---------- Orders ---------- */
+    match /orders/{orderId} {
+      // Create: signed-in users (including anonymous) can create orders
+      // Must include created_by_user_id matching their auth UID, products, and customer email
+      allow create: if isSignedIn()
+        && request.resource.data.created_by_user_id == request.auth.uid
+        && request.resource.data.keys().hasAll(["created_by_user_id", "products_in_order", "customer_details"])
+        && request.resource.data.customer_details.email != null
+        && request.resource.data.order_status == "Pending"
+        && float(request.resource.data.client_order_details.order_total_eur) > 0;
+
+      // Read: admin can read all; owners (authenticated or anonymous) can read their own orders
+      allow get: if isAdmin() || (isSignedIn() && resource.data.created_by_user_id == request.auth.uid);
+      // Listing: admin can list all; owners can only list their own orders — Firestore enforces this by rejecting any query whose result set could include docs where created_by_user_id != uid
+      allow list: if isAdmin() || (isSignedIn() && resource.data.created_by_user_id == request.auth.uid);
+
+      // Updates & deletes: admin-only (prevent users from modifying submitted orders)
+      allow update, delete: if isAdmin();
+    }
+
+    /* ---------- Users collection ---------- */
+    match /users/{userId} {
+      // Create: user may create their own profile doc on signup
+      // Only allow create when the incoming document explicitly sets `user_role` to "customer"
+      allow create: if isOwner(userId)
+        && request.resource.data.user_role == "customer";
+
+      // Read: admin or owner
+      allow get: if isAdmin() || isOwner(userId);
+      allow list: if isAdmin();
+
+      // Update: admin can update any field; normal users can update their own profile
+      // with three immutability constraints:
+      //   - user_role  : cannot be changed (privilege escalation prevention)
+      //   - createdAt  : set once at signup, must never change
+      //   - orders     : append-only via the setOrderTimestamps Cloud Function (Admin SDK),
+      //                  which bypasses these rules — direct client writes are blocked here
+      // Note: request.resource.data is the full resulting document, so we compare values
+      // rather than checking keys() which would always find these fields present.
+      allow update: if isAdmin()
+        || (isOwner(userId)
+            && request.resource.data.user_role == resource.data.user_role
+            && request.resource.data.createdAt == resource.data.createdAt
+            && request.resource.data.orders == resource.data.orders);
+
+      // Only admin can delete user docs
+      allow delete: if isAdmin();
+    }
+
+    /* ---------- Site visits (public create, admin read) ---------- */
+    match /site_visits/{visitId} {
+      // Any visitor (including unauthenticated) can write a visit record
+      allow create: if request.resource.data.keys().hasAll(["timestamp_iso", "timezone", "browser", "device_type"]);
+      // Only admins can read or modify visit data
+      allow read, update, delete: if isAdmin();
+    }
+
+    /* ---------- Default: deny everything else ---------- */
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
